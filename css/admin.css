@@ -1,0 +1,83 @@
+body {
+  background-color: #F5F7FA;
+}
+
+.sidebar-nav > .sidebar-brand {
+  line-height: initial;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #333;
+  font-weight: bold;
+  border-left: none;
+  background-color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #0A0A0A;
+}
+
+.sidebar-nav li {
+  text-indent: initial;
+  line-height: initial;
+  display: block;
+}
+
+.sidebar-nav li a {
+    padding: 10px 20px;
+    /*color: #aaa;*/
+    /*color: #43C1E8;*/
+    /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
+    /*box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);*/
+    border-left: solid 4px;
+    color: #2F87A2;
+}
+
+.sidebar-nav li.active a {
+  background: #FCFCFC;
+}
+
+.sidebar-nav li a:hover {
+    color: #3CAED1;
+}
+
+li.sidebar-brand a {
+  border-top: none;
+  padding: 20px 0px 10px 20px;
+}
+
+.sidebar-nav li ul {
+  padding-left: 0px;
+}
+
+.sidebar-nav > li ul a {
+  padding-left: 20px;
+  /*border-color: #2F87A2;*/
+  color: #43C1E8;
+  background: #FFF;
+}
+
+.sidebar-nav > li.active ul a {
+  background: #FFF;
+}
+
+#top {
+  height: 43px;
+}
+
+#page-content-wrapper {
+  padding-top: 0px;
+}
+
+.dropdown > a, #menu-toggler {
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+#sidebar-wrapper {
+  background-color: #fff;
+  border-right: 1px solid #cfdbe2;
+  width: 251px;
+}
