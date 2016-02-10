@@ -1,7 +1,9 @@
+/* General Styles */
 body {
   background-color: #F5F7FA;
 }
 
+/* Sidebar styles */
 .sidebar-nav > .sidebar-brand {
   line-height: initial;
 }
@@ -62,10 +64,24 @@ li.sidebar-brand a {
   background: #FFF;
 }
 
+#sidebar-wrapper {
+  background-color: #fff;
+  border-right: 1px solid #cfdbe2;
+  margin-left: -251px;
+}
+
+@media(min-width:768px) {
+  #sidebar-wrapper {
+    width: 251px;
+  }
+}
+
+/* top styles */
 #top {
   height: 43px;
 }
 
+/* page styles */
 #page-content-wrapper {
   padding-top: 0px;
 }
@@ -74,10 +90,4 @@ li.sidebar-brand a {
   display: block;
   padding-top: 14px;
   padding-bottom: 10px;
-}
-
-#sidebar-wrapper {
-  background-color: #fff;
-  border-right: 1px solid #cfdbe2;
-  width: 251px;
 }

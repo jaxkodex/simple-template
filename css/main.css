@@ -1,0 +1,30 @@
+header {
+  background-image: url('../img/DeathtoStock_Creative Community9.jpg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-default, .header-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  padding: 28px 15px;
+  font-size: 26px;
+}
+
+.nav>li>a {
+  padding: 24px 24px;
+}
+
+.header-text {
+  padding: 200px 0px 100px 0px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
