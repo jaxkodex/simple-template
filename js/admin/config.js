@@ -27,8 +27,7 @@ require.config({
 		marionette : '../libs/backbone.marionette.min',
 		tpl : '../libs/tpl',
 		metis: '../libs/metisMenu.min'
-	},
-	urlArgs : "bust=" + (new Date()).getTime()
+	}
 });
 
 require([ 'app', 'views/AppLayout', 'views/MenuView', 'views/TopView',
