@@ -41,7 +41,13 @@ function(app, AppLayout, MenuView, TopView, init, Backbone, _) {
 
 		app.rootView.showChildView('menu', new MenuView);
 		app.rootView.showChildView('top', new TopView);
+		$('.loading-holder').fadeOut(500);
 		Backbone.history.start();
 	});
 	app.start();
+	 $(document).ajaxStart(function () {
+		 $('.loading-holder').stop().fadeIn(300);
+	 }).ajaxStop(function () {
+		 $('.loading-holder').stop().fadeOut(500);
+	 });
 });
