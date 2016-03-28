@@ -15,6 +15,18 @@ Queremos crear una plantilla que permita ser utilizada de manera rápida para co
 9. [Start Bootstrap - Simple Sidebar HTML Template](http://startbootstrap.com)
 10. [SpinKit](https://github.com/tobiasahlin/SpinKit) v1.2.5
 
+## Pruebame/Contribuye!
+
+Para probar la plantilla o contribuir puedes iniciar el servidor interno que usa gulp y browserSync para hacer pruebas antes de hacer un push request.
+
+```
+> ## para descargar las dependencias
+> npm install
+> ## para iniciar el servidor
+> gulp serve
+
+```
+
 ## License
 
 ```
