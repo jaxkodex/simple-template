@@ -1,6 +1,6 @@
 # Simple tamplate
 
-Queremos crear una plantilla que permita ser utilizada de manera rápida para comenzar proyectos web atractivas para usuarios.
+Creamos una plantilla que permita ser utilizada de manera rápida para comenzar proyectos web atractivas para usuarios.
 
 ## Tecnologías usadas
 

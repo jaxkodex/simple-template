@@ -20,18 +20,18 @@ require.config({
 		}
 	},
 	paths : {
-		jquery : '../libs/jquery-1.12.0.min',
-		underscore : '../libs/underscore-min',
-		backbone : '../libs/backbone-min',
-		bootstrap : '../libs/bootstrap.min',
-		marionette : '../libs/backbone.marionette.min',
+		jquery : '../libs/jquery-1.12.0',
+		underscore : '../libs/underscore',
+		backbone : '../libs/backbone',
+		bootstrap : '../libs/bootstrap',
+		marionette : '../libs/backbone.marionette',
 		tpl : '../libs/tpl',
-		metis: '../libs/metisMenu.min'
+		metis: '../libs/metisMenu'
 	},
 	urlArgs : "bust=" + (new Date()).getTime()
 });
 
-require([ 'app', 'views/AppLayout', 'views/MenuView', 'views/TopView',
+require([ 'app', 'views/core/AppLayout', 'views/core/MenuView', 'views/core/TopView',
 'init', 'backbone', 'underscore', 'bootstrap', 'metis' ],
 function(app, AppLayout, MenuView, TopView, init, Backbone, _) {
 	app.on('start', function() {

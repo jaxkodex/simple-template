@@ -2,7 +2,7 @@ body {
   background-color: #fff; }
 
 header {
-  background-image: url("../img/DeathtoStock_Creative Community9.jpg");
+  background-image: url("../img/rsz_1rsz_death_to_stock_photography_wake_up_10_nomot.png");
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
@@ -21,8 +21,17 @@ header {
 .nav > li > a {
   padding: 24px 24px; }
 
+.nav > li > a.forkme {
+  padding-left: 37px; }
+
 .header-text {
   padding: 238px 0px 178px 0px;
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6); }
+
+.forkme {
+  background-image: url("../img/GitHub-Mark-32px.png");
+  background-position: center left;
+  background-repeat: no-repeat; }
