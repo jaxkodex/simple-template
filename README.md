@@ -17,7 +17,7 @@ Creamos una plantilla que permita ser utilizada de manera rápida para comenzar 
 
 ## Pruebame/Contribuye!
 
-Para probar la plantilla o contribuir puedes iniciar el servidor interno que usa gulp y browserSync para hacer pruebas antes de hacer un push request.
+Para probar la plantilla o contribuir puedes iniciar el servidor interno que usa gulp y browserSync para hacer pruebas antes de hacer un pull request.
 
 ```
 > ## para descargar las dependencias
