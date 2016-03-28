@@ -1,4 +1,4 @@
-define(['marionette', 'tpl!templates/top.html', 'jquery'], function (Marionette, topTemplate, $) {
+define(['marionette', 'tpl!templates/core/top.html', 'jquery'], function (Marionette, topTemplate, $) {
   return Marionette.ItemView.extend({
     className: 'col-sm-12',
     template: topTemplate,

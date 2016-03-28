@@ -1,0 +1,47 @@
+$bg-body: #fff;
+
+body {
+  background-color: $bg-body;
+}
+
+header {
+  background-image: url('../img/rsz_1rsz_death_to_stock_photography_wake_up_10_nomot.png');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-default, .header-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  padding: 28px 15px;
+  font-size: 26px;
+}
+
+.nav>li>a {
+  padding: 24px 24px;
+}
+
+.nav>li>a.forkme {
+  padding-left: 37px;
+}
+
+.header-text {
+  padding: 238px 0px 178px 0px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.forkme {
+  background-image: url('../img/GitHub-Mark-32px.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+}

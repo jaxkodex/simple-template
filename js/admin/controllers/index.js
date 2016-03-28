@@ -1,4 +1,4 @@
-define(['views/index', 'app'], function (IndexView, app) {
+define(['views/core/index', 'app'], function (IndexView, app) {
   return {
     index: function () {
       var view = new IndexView;

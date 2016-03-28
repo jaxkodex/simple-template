@@ -1,0 +1,21 @@
+{
+  "name": "simple-template",
+  "version": "1.0.0",
+  "description": "Queremos crear una plantilla que permita ser utilizada de manera rápida para comenzar proyectos web atractivas para usuarios.",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxkodex/simple-template.git"
+  },
+  "author": "jaxkodex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxkodex/simple-template/issues"
+  },
+  "homepage": "https://github.com/jaxkodex/simple-template#readme"
+}
